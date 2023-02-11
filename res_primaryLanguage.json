@@ -1,0 +1,177 @@
+{
+  "basic_info": {
+    "description_header": "Hey",
+    "description": "👋 I'm Nolan Jacobson. I'm a blockchain engineer with 7 years of experience in the crypto/blockchain space. Currently leading blockchain engineering @ Autograph.io writing Solidity and TypeScript, Tom Brady's NFT company. I love programming all things Web3 ranging from React front-ends to Rust/Solidity smart contracts to TypeScript API's.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Autograph.io <> Smart Contracts",
+      "startDate": "2022",
+      "description": "While being employeed at Autograph.io, I created a range of custom solidity smart contracts that spanned Soulbound POAP tokens, Dynamic NFT's (used on Tom Brady: The Huddle), LayerZero (bridgeable NFTs), and Usernames V2 (an on-chain registry of Autograph usernames). Additionally, I created internal tools for minting NFT's and syncing those NFT's into our MongoDB instance.",
+      "references": [
+        "https://etherscan.io/token/0x91cefa84e3cd97cc4f74e59116cccf24a3735a60?a=0x778f8dcdcdda32467b99ea1a8f2eb01f9e7fa1bd",
+        "https://polygonscan.com/token/0xA4A4429FF8AEE56038865cBbecA4f0AD89071144",
+        "https://polygonscan.com/address/0x5B9f0eabA7a1C0e4823BDfCe413CA591C3fac846"
+      ],
+      "images": [
+        "images/autographlogo.jpeg",
+        "images/tbx.png"
+      ],
+      "url": "https://autograph.io",
+      "technologies": [
+        {
+          "class": "devicon-solidity-plain",
+          "name": "Solidity"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        }
+      ]
+    },
+    {
+      "title": "QTUM-Ethers-Wrapper, QTUM <> Chainlink Adapter",
+      "startDate": "2021",
+      "description": "Consulted with QTUM, a top 100 blockchain network to fork Ethers.js to support signing and formatting UTXO's. Additionally, I created a Chainlink external adapter/external initiator service allowing Chainlink oracles to report off-chain data to the QTUM network.",
+      "references": [
+        "https://www.npmjs.com/package/qtum-ethers-wrapper",
+        "https://github.com/earlgreytech/Qtum-Chainlink"
+      ],
+      "images": [
+        "images/qtumllogo.png",
+        "images/ChainlinkLogo.png"
+      ],
+      "url": "https://github.com/earlgreytech/Qtum-Chainlink/tree/5829a3b195edc92e9084f57cde7884a816bcc2be",
+      "technologies": [
+        {
+          "class": "devicon-solidity-plain",
+          "name": "Solidity"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        }
+      ]
+    },
+    {
+      "title": "Chainlink <> NEAR Protocol Integration",
+      "startDate": "2020",
+      "description": "Consulted with Chainlink and NEAR Protocol to port Chainlink's solidity-based decentralized price feed smart contracts to rust using NEAR's rust SDK. These contracts are now deprecated in favor of Chainlink's new off-chain reporting model.",
+      "references": [
+        "https://near.org/blog/near-bringing-chainlinks-leading-oracle-solution-to-its-open-web-ecosystem/"
+      ],
+      "images": [
+        "images/ChainlinkLogo.png",
+        "images/nearprotocol.png"
+      ],
+      "url": "https://github.com/nolanjacobson/Near-Protocol-Chainlink",
+      "technologies": [
+        {
+          "class": "devicon-rust-plain",
+          "name": "Rust"
+        },
+        {
+          "class": "devicon-solidity-plain",
+          "name": "Solidity"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Cutting Edge Software Solutions",
+      "title": "Blockchain Consultant",
+      "years": "09.2016 - 08.2022",
+      "mainTech": [
+        "Rust"
+      ],
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Ethers.js",
+        "Web3.js",
+        "Solidity",
+        "Linux",
+        "React",
+        "C++"
+      ]
+    },
+    {
+      "company": "BlockSpaces",
+      "title": "Senior Blockchain Engineer",
+      "years": "08.2020 - 08.2021",
+      "mainTech": [
+        "Rust"
+      ],
+      "technologies": [
+        "Rust",
+        "TypeScript",
+        "Ethers.js",
+        "Web3.js",
+        "Solidity",
+        "PineScript",
+        "React",
+        "JSON-RPC"
+      ]
+    },
+    {
+      "company": "Framework Ventures",
+      "title": "Senior Software Engineer",
+      "years": "08.2021 - 10.2021",
+      "mainTech": [
+        "C++"
+      ],
+      "technologies": [
+        "Node.js",
+        "TypeScript",
+        "C++",
+        "Google Cloud",
+        "Linux"
+      ]
+    },
+    {
+      "company": "CurioNFT",
+      "title": "Senior Blockchain Engineer",
+      "years": "10.2021 - 12.2021",
+      "mainTech": [
+        "Solidity"
+      ],
+      "technologies": [
+        "GraphQL",
+        "TypeScript",
+        "Ethers.js",
+        "Web3.js",
+        "Solidity",
+        "Node.js",
+        "Chai",
+        "OpenZeppelin"
+      ]
+    },
+    {
+      "company": "Autograph",
+      "title": "Senior Blockchain Engineer",
+      "years": "01.2022 - Current",
+      "mainTech": [
+        "Solidity"
+      ],
+      "technologies": [
+        "Solidity",
+        "TypeScript",
+        "MongoDB",
+        "Ethers.js",
+        "Web3.js",
+        "Solidity",
+        "GraphQL",
+        "LayerZero",
+        "Bridging",
+        "Vue"
+      ]
+    }
+  ]
+}
