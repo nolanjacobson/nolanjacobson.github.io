@@ -22,7 +22,7 @@ const GetInTouch = () => {
     return (
         <section id="about">
             <div className="col-md-12">
-                <h1 className="section-title">Get in Touch with me at nolanjacobson@protonmail.com</h1>
+                <h1 className="section-title">Get in Touch with me <a href="mailto: nolanjacobson@protonmail.com">here!</a></h1>
                 {/* <form
                 action={FORM_ENDPOINT}
                 onSubmit={handleSubmit}
